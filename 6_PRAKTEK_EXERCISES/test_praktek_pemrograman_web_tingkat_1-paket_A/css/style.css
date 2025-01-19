@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1008px;
+    border: 1px solid black;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.header {
+    background-color:rgb(216, 216, 216) ;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.logo img {
+    height: 100px;
+    width: 150px;
+    padding:10px;
+}
+
+.judul {
+    margin-left:20px ;
+    max-width: 500px;
+}
+
+/* container */
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+
+/* main-menu */
+
+.main-menu {
+    float: left;
+    margin-top: 11px;
+    width: 30%;
+}
+
+tr td {
+   border: 2px solid rgb(255, 255, 255);
+}
+
+.menu {
+    width: 150px;
+    background-color: rgb(194, 185, 217);
+    padding: 3px;
+}
+
+.menu_1 {
+    border-bottom: 3px solid black;
+}
+
+.tombol {
+    width: 17px;
+    background-color: rgb(141, 141, 183);
+}
+
+.tombol span {
+    background-color: rgb(253, 254, 254);
+    width: 19px;
+    height: 20px;
+    display: block;
+    margin-top:5px ;
+}
+
+.menu:hover {
+    background-color: burlywood;
+}
+
+
+/* artikel */
+
+.artikel {
+    width: 60%;
+    float: left;
+    margin-left:30 ;
+}
+
+.judulParagraf {
+    font-weight: bold;
+    width: 460px;
+    border-bottom: 3px solid black;
+}
+
+/* pengumuman */
+.pengumuman{
+    width: 30%;
+    float: left;
+    display: block;
+}
+
+.judulPengumuman {
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 40px;
+}
+
+ul {
+    width: 0px;
+    margin-left: 0px;
+}
+
+ul li {
+    font-weight: bold;
+    list-style-type: none;
+    margin-bottom: 20px;
+    background-color:rgb(96, 199, 149);
+    width: 190px;
+    padding: 2px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(52, 52, 89);
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    color: white;
+    padding: 10px;
+    margin-bottom: auto;
+}

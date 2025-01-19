@@ -1,0 +1,83 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+
+.segalanya {
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+
+}
+
+.header {
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 330%;
+    color: rgb(81, 79, 79);
+}
+
+h2 {
+    color: rgb(81, 79, 79);
+}
+
+.navbar {
+    background-color: aqua;
+}
+
+ol {
+    margin-left:200px ;
+    background-color: rgba(0, 255, 255, 0.747);
+    font-weight: bold;
+    color: white;
+    padding: 7px;
+}
+
+ol li {
+    background-color: aqua;
+    display: inline;
+    margin-left: 30px;
+}
+
+.gambar {
+    width: 30%;
+    float: left;
+    margin-left: 60px;
+    border: 1px solid grey;
+    padding: 2px;
+    padding-bottom: 0px;
+}
+
+.gambar img {
+    width: 270px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.artikel {
+    width: 63%;
+    margin-left: 37%;
+}
+
+
+.ul {
+    margin-right: 70px;
+
+}
+
+.footer_1 {
+    position: relative;
+    top: 66px;
+}
+
+.footer_2 {
+    background-color: rgb(214, 207, 207);
+    padding: 10px;
+}
