@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 420px;
+            height: 190px;
+            padding: 2px 0px 20px 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 6px grey,-2px -2px 6px grey;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-top: 5px;
+        }
+
+        .keterangan {
+            margin-left: 10px;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            margin-top: 0px;
+        }
+
+        .container-youtube {
+            display: flex;
+            flex-direction: row;
+            width: fit-content;
+            position: relative;
+            top: 10px;
+            left: 70px;
+            border-radius: 15px;
+            box-shadow:2px 2px 6px grey,-2px -2px 6px grey ;
+        }
+        
+        .keterangan-2 {
+            width: fit-content;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 0px 15px 15px 0px;
+            background-color: rgb(251, 253, 255);
+        }
+        
+        .hitam {
+            background-color: rgb(223, 222, 222);
+            width: 100px;
+            height: 100px;
+            border-radius: 15px 0px 0px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex">
+            <img src="kece.jpg" alt="">
+            <div class="keterangan">
+                <p style="font-weight: bold; font-size: 16px; line-height: 10px;">
+                    supersimple.dev <font color="grey" style="font-weight: normal; font-size: 16px;">@SuperSimpleDev</font>
+                </p>
+                <p style="line-height: 4px;font-size: 15px;">
+                    What is backend web development? A complete
+                </p>
+                <p style="line-height: 3px;">
+                    overview. New video is up!
+                </p>
+            </div>
+        </div>
+        <div class="container-youtube">
+            <div class="hitam">
+
+            </div>
+            <div class="keterangan-2">
+                <p style=" font-size: 16px; line-height: 10px;">
+                   <a href="https://www.youtube.com" style="text-decoration: none; color: rgb(117, 117, 120);">youtube.com</a>
+                </p>
+                <p style="line-height: 1px;font-size: 14.5px;">
+                    Backend we development - a
+                </p>
+                <p style="line-height: 7px;font-size: 15px;">
+                    complete overview (2021)
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

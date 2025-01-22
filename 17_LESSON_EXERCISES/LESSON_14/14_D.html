@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            z-index: 9999;
+        } */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .container {
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            background-color: rgb(0,0,0,0.3);
+            z-index: 999;
+            
+     }
+/*  */
+        
+        .side-bar {
+            width: 200px;
+            height: 100%;
+            background-color: darkgreen;
+            position: fixed;
+            right: 0px;
+            top: 0px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        }
+
+        .item-1 {
+            background-color: white;
+            width: 400px;
+            height: 150px;
+            border-radius: 10px;
+            z-index: 9999;
+            padding: 10px 0px 0px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="flex">
+        <div class="item-1">
+            <div class="nama">
+                <p style="font-weight: bold; font-size: 140%">
+                    Modal Title
+                </p>
+                <p>
+                    this is a modal
+                </p>
+                <button>
+                    Close
+                </button>
+            </div>
+        </div>
+        <div class="side-bar">
+            Right sidebar
+        </div>
+    </div>
+</body>
+</html>

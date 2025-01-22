@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-flex {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-item-1 {
+            background-color:rgb(89, 89, 189);
+            width: 100px;
+            height: 100px;
+            justify-items: center;
+        }
+        .flex-item-2 {
+            background-color: rgb(182, 88, 88);
+            width: 200px;
+            height: 100px;
+        }
+        
+        .dalem {
+            background-color: green;
+            width: fit-content;
+            margin-top:40px; 
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container-flex">
+        <div class="flex-item-1">
+            <div class="dalem">
+                item nieh
+            </div>
+        </div>
+        <div class="flex-item-2"></div>
+    </div>
+</body>
+</html>

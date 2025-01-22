@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .flex-1 {
+            width: 200px;
+            background-color: salmon;
+            height: 100px;
+        }
+
+        .flex-2 {
+            width: 500px;
+            background-color: rgb(129, 116, 245);
+            height: 100px;
+            /* display: flex; */
+            /* flex-direction: row; */
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .isi {
+            width: fit-content;
+            height: fit-content;
+        }
+        .isi-2 {
+            width: fit-content;
+            height: fit-content;
+            background-color: aqua;
+        }
+
+
+
+        .lagi {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-flex">
+        <div class="flex-1">
+
+        </div>
+        <div class="flex-2">
+            <p style="line-height: 3px;">
+                Row-1 
+            </p>
+            <div class="lagi">
+                <div class="isi-2">
+                    Row-2
+                </div>
+                <div class="isi-2">
+                    Row-2
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
