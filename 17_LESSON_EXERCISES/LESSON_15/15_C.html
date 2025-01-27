@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kotak-besar {
+            background-color: grey;
+            width: 320px;
+            height: 180px;
+            position: relative;
+            top: 100px;
+            left: 180px;
+            z-index: 1;
+
+        }
+
+        /* tanda x */
+        .x {
+            background-color: black;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            position: absolute;
+            top: 90px;
+            left: 170px;
+            z-index: 2;
+        }
+
+        .x-1 {
+            width: 3px;
+            height: 15px;
+            background-color: white;
+            transform: skew(39deg);
+            position: absolute;
+            top: 15px;
+            left: 21px;
+        }
+        .x-2 {
+            width: 3px;
+            height: 15px;
+            background-color: white;
+            transform: skew(-39deg);
+            position: absolute;
+            top: 15px;
+            left: 21px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="x">
+            <div class="x-1"></div>
+            <div class="x-2"></div>
+        </div>
+        <div class="kotak-besar">
+    
+        </div>
+    </div>
+</body>
+</html>

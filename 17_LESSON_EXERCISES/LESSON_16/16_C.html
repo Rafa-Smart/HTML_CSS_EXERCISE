@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: none;
+            margin-right: 10px;
+        }
+        
+        .foto-chanel-1 {
+            display: flex;
+            flex-direction: row;
+        }
+        .foto-chanel-2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .satu {
+            display: flex;
+            flex-direction: column;
+            margin: 20px 25px;
+        }
+        
+        .dua {
+            display: flex;
+            margin: 20px 25px;
+            flex-direction: column;
+        }
+
+
+        .gambar-detail {
+            border-radius: 50%;
+        }
+        .nama-chanel {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin-left: 75px;
+            margin-top: -40px;
+            font-size: 105%;
+            color: rgb(109, 109, 109);
+        }
+
+        .gambar {
+            margin-top: 10px;
+        }
+
+        .lagi {
+            width: 310px;
+            height: 80px;
+            background-color: white;
+            display: flex;
+            position: relative;
+            bottom: 60px;
+            padding-top: 8px;
+            padding-left: 10px;
+            padding-bottom: 3px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px grey,-2px -2px 10px grey;
+        }
+
+        .container-detail {
+            transition: 500ms;
+            position: relative;
+            top: 130px;
+            left: -420px;
+            opacity: 0;
+        }
+
+        .foto-chanel-1:hover .container-detail{
+            opacity: 1;
+        }
+        .container-detail-2 {
+            position: relative;
+            top: 130px;
+            left: -510px;
+            opacity: 0;
+            transition: 500ms;
+        }
+
+        .foto-chanel-2:hover .container-detail-2 {
+            opacity: 1;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu">
+            <div class="video-1">
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/bw8rEbbGo4Q?si=qu4v8PdDbgm3VW0J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+                <div class="foto-chanel-1">
+                    <img src="kece.jpg" alt="" class="link-nih" style="margin-top: 5px;">
+                    <p style="font-family: arial; font-weight: bold; font-size: 110%; margin-top: 10px; color: black; margin-left: 5px; width: 350px;">
+                        <a href="https://www.youtube.com/embed/bw8rEbbGo4Q?si=qu4v8PdDbgm3VW0J" style="text-decoration: none; color: black; text-transform: uppercase;" >
+                            Dari tangan ke layar : Cara baru <br> menggerakan 
+                             Cursor 
+                        </a>
+                    </p>
+                    <div class="container-detail">
+                        <div class="detail-1 lagi">
+                            <img src="kece.jpg" alt="" class="gambar-detail" style="width: 75px;height: 75px;">
+                            <div class="detail-lebih-detail">
+                                <p style="font-size: 150%; margin-top: 10px;"><b>DevCoding</b></p>
+                                <p style="color: grey; margin-top: -20px;">19M Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nama-chanel">
+                    <p>DevCoding</p>
+                    <p style="margin-top: -10px;">3.4M views • 6 Months ago</p>
+                </div>
+
+        </div>
+
+
+        <div class="dua" style="margin-left: -190px;">
+            <div class="video-2">
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/AM5bwvKW3vc?si=Ro2JSaj69BWk8I_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+                <div class="foto-chanel-2">
+                    <img src="mbut.jpg" alt="" class="link-nih">
+                    <p style="font-family: arial; font-weight: bold; font-size: 110%; margin-top: 5px; color: black; width: 450px;">
+                        <a href="https://www.youtube.com/watch?v=AM5bwvKW3vc" style="text-decoration: none;color: black;">
+                            TUTORIAL‼️: CONTROL ARDUINO ON AND OFF <br>&nbsp;WITH 5 FINGERS USING PYTHON!😱
+                        </a>
+                    </p>
+                    <div class="container-detail-2">
+                        <div class="detail-2 lagi" style="padding-top: 5px;">
+                            <img src="mbut.jpg" alt="" class="gambar-detail" style="width: 80px;height: 80px;">
+                            <div class="detail-lebih-detail">
+                                <p style="font-size: 150%; margin-top: 10px;"><b>Pororo gaming</b></p>
+                                <p style="color: grey; margin-top: -20px;">15M Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nama-chanel" style="margin-left: 80px; margin-top: -20px;">
+                    <p>Pororo Gaming</p>
+                    <p style="margin-top: -10px;">5.1M views • 2 years ago</p>
+                </div>
+   
+        </div>
+    </div>
+
+
+
+</body>
+</html>

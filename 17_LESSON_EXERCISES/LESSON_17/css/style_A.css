@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.judul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+div.judul p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.preview-judul {
+    margin-left: 80px;
+    margin-top: -18px;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.pasdiklik {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -60px;
+    box-shadow: 3px 3px 5px 1px grey, -3px -3px 9px 0px grey;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.judul:hover ~ .pasdiklik {
+    opacity: 1;
+}
+
+#img-klik {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.kata-kata {
+    display: flex;
+    flex-direction: column;
+}
